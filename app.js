@@ -1,7 +1,10 @@
+//Hello World
 const heading = React.createElement("h1",
     {id : "heading"},
     "Hello World from React");
 
+
+//Nested Elements     
 
 const parent = React.createElement(
     "div",
@@ -28,4 +31,4 @@ console.log(parent);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(root);
